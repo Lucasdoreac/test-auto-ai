@@ -1,0 +1,33 @@
+{
+  "name": "test-auto-ai",
+  "version": "0.1.0",
+  "description": "Framework para automação de testes web usando linguagem natural e suporte de IA",
+  "main": "framework-ia.js",
+  "scripts": {
+    "test": "node exemplos/teste-github.js",
+    "start": "node -e \"console.log('Para executar os testes, use: npm run test')\""
+  },
+  "keywords": [
+    "test",
+    "automation",
+    "ai",
+    "natural-language",
+    "playwright"
+  ],
+  "author": "Lucas Dórea",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.42.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lucasdoreac/test-auto-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lucasdoreac/test-auto-ai/issues"
+  },
+  "homepage": "https://github.com/Lucasdoreac/test-auto-ai#readme"
+}
