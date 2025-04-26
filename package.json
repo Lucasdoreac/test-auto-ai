@@ -5,7 +5,8 @@
   "main": "framework-ia.js",
   "scripts": {
     "test": "node exemplos/teste-github.js",
-    "start": "node -e \"console.log('Para executar os testes, use: npm run test')\""
+    "test:investimentos": "node exemplos/teste-investimentos.js",
+    "start": "node -e \"console.log('Para executar os testes, use: npm run test ou npm run test:investimentos')\""
   },
   "keywords": [
     "test",
